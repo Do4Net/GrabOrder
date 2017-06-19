@@ -1,0 +1,16 @@
+{
+    "users":[ 
+        {"userId": "*****", "password": "*****", "phone": "*****", "type": "all","loginCtrip":true} 
+    "interval": 60,
+    "urls":{
+        "loginVbooking": "http://vbooking.ctrip.com/Package_Vendor_Vbooking/UserManagement/Login2.aspx",
+        "loginCtrip": "https://accounts.ctrip.com/member/login.aspx?backurl=http://vbooking.ctrip.com/Package_Vendor_Vbooking/UserManagement/Login2.aspx",
+        "middle": "http://vbooking.ctrip.com/Dingzhi/dispatch",
+        "grabRequireUrl": "http://vbooking.ctrip.com/dingzhi/GrabRequire/index",
+        "ajaxUrl": "http://vbooking.ctrip.com/dingzhi/GrabRequire/GetRequireList?random=30&&pageIndex=1&pageSize=30&condition={%22RequireId%22:%22%22,%22RobType%22:%220%22}",
+        "bookingUrl": "http://vbooking.ctrip.com/dingzhi/GrabRequire/Submit",
+        "jquery": "http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js",
+        "smsUrl": "http://openapi.hytours.com/ota/api/Common/SentMessage",
+        "dispatchUrl":"http://vbooking.ctrip.com/Dingzhi/dispatch"
+    }
+}

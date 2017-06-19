@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "exec_mode": "fork_mode",
+      "script": "./test.js",
+      "name": "proj-0",
+      "args": [ "0" ],
+      "env": {
+        "PORT": 4001,
+        "NODE_ENV": "production"
+      },
+      "error_file": "./proj-0.err.log",
+      "out_file": "./proj-0.out.log"
+    }
+  ]
+}
